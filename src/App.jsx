@@ -9,22 +9,22 @@ import { GiKnifeFork } from 'react-icons/gi';
 import Footer from './components/Footer';
 
 function App() {
-  return (
-    <div className="App">
-      <BrowserRouter>
-        <Nav>
-          <GiKnifeFork />
-          <Logo to={"/"}>
-            Mlem Mlem
-          </Logo>
-        </Nav>
-        <Search />
-        <Category />
-        <Pages />
-        <Footer />
-      </BrowserRouter>
-    </div>
-  );
+    return (
+        <div className="App">
+            <BrowserRouter>
+                <Nav>
+                    <GiKnifeFork />
+                    <Logo to={"/"}>
+                        Mlem Mlem
+                    </Logo>
+                </Nav>
+                <Search />
+                <Category />
+                <Pages />
+                <Footer />
+            </BrowserRouter>
+        </div>
+    );
 }
 
 const Logo = styled(Link)`
